@@ -1,7 +1,7 @@
 <img src="https://github.com/SeniorityMeter/spring-sm-starter-bom/assets/36059306/ebfcb364-caea-48eb-972a-2d1ae63f4cdb" alt="logo" width="100"/>
 
 # Seniority Meter
-## Spring Security
+## Spring Documentation
 
 ### Description
 This library is a simple documentation library for Spring Boot applications. It provides a simple configuration of provides documentation for your applications. 
