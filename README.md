@@ -9,7 +9,7 @@ This library is a simple documentation library for Spring Boot applications. It 
 ___
 
 ### How to use
-#### 1. Add the following dependency and repository to your `pom.xml` file:
+#### 1. Add the following dependency to your `pom.xml` file:
 
 ```xml
 <dependencies>
