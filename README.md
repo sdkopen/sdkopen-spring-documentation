@@ -9,7 +9,23 @@ This library is a simple documentation library for Spring Boot applications. It 
 ___
 
 ### How to use
-#### 1. Add the following dependency to your `pom.xml` file:
+#### 1. Add the following parent to your `pom.xml` file:
+
+```xml
+<parent>
+    <groupId>br.com.senioritymeter</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0</version>
+</parent>
+```
+___
+
+#### 2. add scanBasePackages to your SpringBootApplication
+```java
+@SpringBootApplication(scanBasePackages = {"br.com.senioritymeter", "your.package.name.here"})
+```
+___
+#### 3. Add the following dependency to your `pom.xml` file:
 
 ```xml
 <dependencies>
@@ -22,7 +38,7 @@ ___
 ```
 ___
 
-#### 2. Add the following properties to your `application.yaml` file:
+#### 4. Add the following properties to your `application.yaml` file:
 
 ```yaml
 spring:
@@ -39,3 +55,12 @@ spring:
       name: ${DOCUMENTATION_LICENSE_NAME}
       url: ${DOCUMENTATION_LICENSE_URL}
 ```
+
+___
+
+#### 5. Access the following URL to see the documentation:
+
+```
+${HOST_URL}/swagger-ui/index.html
+```
+
