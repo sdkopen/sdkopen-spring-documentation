@@ -4,7 +4,7 @@
 ## Spring Documentation
 
 ### Description
-This library is a simple documentation library for Spring Boot applications. It provides a simple configuration of provides documentation for your applications. 
+This is a simple documentation SDK for Spring Boot applications. It provides a simple configuration of provides documentation for your applications. 
 
 ___
 
@@ -15,7 +15,7 @@ ___
 <parent>
     <groupId>br.com.senioritymeter</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </parent>
 ```
 ___
@@ -32,7 +32,7 @@ ___
     <dependency>
         <groupId>br.com.senioritymeter</groupId>
         <artifactId>documentation</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </dependency>
 </dependencies>
 ```
