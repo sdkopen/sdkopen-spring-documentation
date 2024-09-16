@@ -1,10 +1,10 @@
-<img src="https://github.com/SeniorityMeter/spring-sm-starter-bom/assets/36059306/ebfcb364-caea-48eb-972a-2d1ae63f4cdb" alt="logo" width="100"/>
+<img src="https://github.com/user-attachments/assets/801ecb0c-455c-41a8-bb52-15d4318f2e78" alt="logo" width="100" style="border-radius: 50%;" />
 
-# Seniority Meter
+# SDK Open
 ## Spring Documentation
 
 ### Description
-This is a simple documentation SDK for Spring Boot applications. It provides a simple configuration of provides documentation for your applications. 
+This is a simple documentation SDK for Spring Boot applications.
 
 ___
 
@@ -13,16 +13,16 @@ ___
 
 ```xml
 <parent>
-    <groupId>br.com.senioritymeter</groupId>
+    <groupId>br.com.sdkopen</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
 </parent>
 ```
 ___
 
 #### 2. add scanBasePackages to your SpringBootApplication
 ```java
-@SpringBootApplication(scanBasePackages = {"br.com.senioritymeter", "your.package.name.here"})
+@SpringBootApplication(scanBasePackages = {"br.com.sdkopen", "your.package.name.here"})
 ```
 ___
 #### 3. Add the following dependency to your `pom.xml` file:
@@ -30,9 +30,9 @@ ___
 ```xml
 <dependencies>
     <dependency>
-        <groupId>br.com.senioritymeter</groupId>
+        <groupId>br.com.sdkopen</groupId>
         <artifactId>documentation</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.0</version>
     </dependency>
 </dependencies>
 ```

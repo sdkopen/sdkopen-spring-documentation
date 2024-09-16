@@ -4,18 +4,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>br.com.senioritymeter</groupId>
+        <groupId>br.com.sdkopen</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>documentation</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A simple documentation SDK for Spring Boot applications.</description>
-    <url>https://github.com/SeniorityMeter/sm-spring-documentation</url>
+    <url>https://github.com/sdkopen/sdkopen-spring-documentation</url>
 
     <licenses>
         <license>
@@ -32,9 +32,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/SeniorityMeter/sm-spring-documentation.git</connection>
-        <developerConnection>scm:git:ssh://github.com/SeniorityMeter/sm-spring-documentation.git</developerConnection>
-        <url>https://github.com/SeniorityMeter/sm-spring-documentation/tree/master</url>
+        <connection>scm:git:git://github.com/sdkopen/sdkopen-spring-documentation.git</connection>
+        <developerConnection>scm:git:ssh://github.com/sdkopen/sdkopen-spring-documentation.git</developerConnection>
+        <url>https://github.com/sdkopen/sdkopen-spring-documentation/tree/master</url>
     </scm>
 
     <dependencies>
@@ -42,7 +42,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
@@ -55,7 +54,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.5</version>
+                <version>3.2.4</version>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
@@ -69,7 +68,7 @@
             <plugin>
                 <groupId>org.sonatype.central</groupId>
                 <artifactId>central-publishing-maven-plugin</artifactId>
-                <version>0.4.0</version>
+                <version>0.5.0</version>
                 <extensions>true</extensions>
                 <configuration>
                     <publishingServerId>central</publishingServerId>
@@ -101,15 +100,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
-                <configuration>
-                    <source>21</source>
-                    <target>21</target>
-                </configuration>
             </plugin>
         </plugins>
     </build>
